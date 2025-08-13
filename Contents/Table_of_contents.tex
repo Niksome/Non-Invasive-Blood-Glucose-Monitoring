@@ -1,0 +1,21 @@
+\markboth{Contents}{Contents}
+%\renewcommand{\contentsname}{Inhaltsverzeichnis}
+
+%\renewcommand\cftdotsep{4.621757}%obsolete  % For larger values, the last point is no longer drawn because it is "outside the line" (requires the "tocloft" package)
+
+%old
+% \makeatletter
+% \renewcommand{\@tocrmarg}{\@pnumwidth plus1fil} % Further attitude to "points in the table of contents"
+% \renewcommand*\@tocrmarg{4em plus1fil} % "4em": Automatic line break in the table of contents with long headings, horizontal distance to the right type area; "plus1fil": No hyphenation in the table of contents
+% \makeatother
+
+
+% \BeforeStartingTOC{\setstretch{1.075}} % Change if necessary to get a nicer page display
+
+
+\cleardoublepage\pdfbookmark{\contentsname}{toc}\tableofcontents % Name of the table of contents "Table of Contents" in the PDF document (requires the package "\usepackage{bookmark}")
+
+% \renewcommand{\contentsname}{new name} % Changes the heading and bookmark in the PDF file from "Contents" to "new name"; this command must be placed here
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

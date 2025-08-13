@@ -5,16 +5,16 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Mustermann(2000)]{Mustermann2000}
-Anton Mustermann.
-\newblock Titel von paper a.
-\newblock \emph{International Journal}, 6\penalty0 (3--4):\penalty0 371--378, 2000.
+\bibitem[Bloggs(1998)]{Bloggs1998}
+Joe Bloggs.
+\newblock Title of paper a.
+\newblock \emph{International Journal}, 6\penalty0 (3--4):\penalty0 371--378, 1998.
 \newblock \doi{10.1017/S1754078714006221}.
 
-\bibitem[Mustermann(2002)]{Mustermann2002}
-Anton Mustermann.
-\newblock Titel von paper b.
-\newblock \emph{International Journal}, 8\penalty0 (9--27):\penalty0 371--378, 2002.
+\bibitem[Bloggs(1999)]{Bloggs1999}
+Joe Bloggs.
+\newblock Title of paper b.
+\newblock \emph{International Journal}, 8\penalty0 (9--27):\penalty0 371--378, 1999.
 \newblock \doi{10.1017/S1754078714006221}.
 
 \end{thebibliography}

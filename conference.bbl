@@ -5,16 +5,16 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Mustermann(2018)]{Mustermann2018}
-Anton Mustermann.
-\newblock Titel von paper c.
-\newblock In \emph{IEEE International Conference}, pages 1--4, April 2018.
+\bibitem[Bloggs(2015)]{Bloggs2015}
+Joe Bloggs.
+\newblock Title of paper c.
+\newblock In \emph{IEEE International Conference}, pages 1--4, April 2015.
 \newblock \doi{10.1509}.
 
-\bibitem[Mustermann(2019)]{Mustermann2019}
-Anton Mustermann.
-\newblock Titel von paper d.
-\newblock In \emph{IEEE International Conference}, pages 6--45, April 2019.
+\bibitem[Bloggs(2016)]{Bloggs2016}
+Joe Bloggs.
+\newblock Title of paper d.
+\newblock In \emph{IEEE International Conference}, pages 6--45, April 2016.
 \newblock \doi{10.1509}.
 
 \end{thebibliography}

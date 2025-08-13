@@ -1,0 +1,19 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Book(2021)]{Book2021}
+Conrad Book.
+\newblock \emph{Title of Book}.
+\newblock Publisher, Address, 2nd edition, 2021.
+
+\bibitem[Journal(2000)]{Journal2000}
+Anna Journal.
+\newblock Title of article.
+\newblock \emph{Name of Journal}, 6\penalty0 (3--4):\penalty0 371--378, 2000.
+\newblock \doi{10.1017/S1754078714006221}.
+
+\end{thebibliography}

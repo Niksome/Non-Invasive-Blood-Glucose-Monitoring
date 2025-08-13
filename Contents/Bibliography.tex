@@ -1,0 +1,53 @@
+\markboth{Bibliography}{Bibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{List of Publications}
+\addcontentsline{toc}{chapter}{List of Publications}
+
+\section*{Journal articles}
+\addcontentsline{toc}{section}{Journal articles}
+\renewcommand{\refnamejournal}{Journal articles}
+\begingroup % Delete heading from \ bibliography {}
+\renewcommand{\chapter}[2]{}
+\renewcommand{\section}[2]{}
+\nocitejournal{*} % Show all titles of the .bib file in the bibliography, if activated; if deactivated, only the quoted titles are displayed
+\bibliographystylejournal{plainnat}
+\bibliographyjournal{Bibliography/Own_journal_papers}{}
+\endgroup
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Conference contributions}
+\addcontentsline{toc}{section}{Conference contributions}
+\renewcommand{\refnameconference}{Conference contributions}
+\begingroup % Delete heading from \ bibliography {}
+\renewcommand{\chapter}[2]{}
+\renewcommand{\section}[2]{}
+\nociteconference{*} % Show all titles of the .bib file in the bibliography, if activated; if deactivated, only the quoted titles are displayed
+\bibliographystyleconference{plainnat}
+\bibliographyconference{Bibliography/Own_conference_papers}{}
+\endgroup
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{Bibliography}
+\addcontentsline{toc}{chapter}{Bibliography}
+%\renewcommand{\refname}{Literaturverzeichnis}
+%\renewcommand\bibname{Literaturverzeichnis}
+\begingroup % Überschrift von \bibliography{} löschen
+\renewcommand{\chapter}[2]{}
+\renewcommand{\section}[2]{}
+\nocite{*} % Show all titles of the .bib file in the bibliography, if activated; if deactivated, only the quoted titles are displayed
+\bibliographystyle{plainnat} % Adjust the citation style if necessary
+\bibliography{Bibliography/Literature}{}
+\endgroup
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\markboth{Literaturverzeichnis}{Literaturverzeichnis}
+%\renewcommand{\refname}{Literaturverzeichnis}
+%\renewcommand\bibname{Literaturverzeichnis}
+%\bibliography{Literatur/Eigene_Konferenz_Papers}{}
+%\bibliographystyle{alpha}
+%\nocite{*}

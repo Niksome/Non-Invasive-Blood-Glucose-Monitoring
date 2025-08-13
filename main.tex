@@ -1,0 +1,349 @@
+% Version 1.2.0 EN
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%        			Preamble!            				   %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%        		Preamble / compile!       		   %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Important:
+% To avoid errors and problems when compiling, please always use the current version of your operating system (Windows / Mac / Linux), the current version of your LaTeX distribution (MiKTeX / MacTeX / Tex Live) and the current version of your typesetting program or LaTeX editor (TeXstudio / Texmaker / TeXworks / TeXnicCenter). Update your operating system, your LaTeX distribution and your LaTeX editor before compiling this template or have them updated by your department IT representative.
+%
+% Notes on compile / setting order:
+% For the correct display of the layout and the bibliographies (multibib) please compile as follows (see "Order of compilation operations"):
+%
+%- Windows 10: via the PowerShell or command prompt (cmd).
+% To do this, go to the folder of this project, do not select any file, click on an empty space with the left mouse button and open the context menu while holding down the Shift key (Shift key + right mouse click) and select "Open PowerShell window here". Then enter "cmd" and call the compile processes individually as follows (see "Order of compilation operations"):
+%
+%- macOS Big Sur 11.0.1: via the terminal.
+% To do this, go to the parent folder of this project and select the folder in which the project is located. Now open the context menu (secondary click) by pressing Control + mouse button or tapping with two fingers on the trackpad. Now select "New Terminal at Folder" and call up the compile processes individually as follows:
+%
+%
+%- Order of compilation operations
+% pdflatex KSP_Diss_17x24
+% bibtex KSP_Diss_17x24
+% bibtex journal				    % The file name of the file to be executed with Bibtex is specified in the command "\ newcites {}" in this TeX file
+% bibtex conference				% The file name of the file to be executed with Bibtex is specified in the command "\ newcites {}" in this TeX file
+% pdflatex KSP_Diss_17x24
+% pdflatex KSP_Diss_17x24
+%
+%
+% Done. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%        			Peamble / Documentclass!       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Loads the document class "scrbook" (KOMA-Script-Book) with the properties: no dots after the numbering, font size 10pt, language packs: English
+\documentclass[%
+fontsize=10pt,% Font size 10 points
+numbers=noenddot,% No end point after the numbering (i.e. 3.1 instead of 3.1.)
+% chapteratlists=0pt,% toc, lot, lof: Set the vertical distance between the entries to 0
+toc=listof,% Sets the table of figures (lof) and the table of tables (lot) in the table of contents (toc)
+% toc=bibliography,% Places the bibliography in the table of contents (does not work with multiple bibliographies, even if the commands in the file "Contents/Bibliography.tex" are commented out: "\addcontentsline{toc}{section}{Journalartikel}", "\addcontentsline{toc}{section}{Konferenzbeiträge}", "\addcontentsline{toc}{chapter}{Literaturverzeichnis")
+toc=chapterentrywithdots,% Adds a dotted line to the page number in the table of contents for headings in the "\chapter" category
+% headings=optiontotocandhead,% To use the command "\addchap[tocentry={unnumbered in the table of contents},head={unnumbered in the table of contents}]{unnumbered}{}"
+% headinclude,% 
+% twoside,% Default for this document class "scrbook"
+listof=nochaptergap,% No vertical spacing between the entries (chapter by chapter) in the list of figures or tables
+% toc=flat% Reduces the space between the number on the left and text to a minimum; Subchapters are not indented
+% toc=chapterentrydots=true,% KOMA guide, p. 74
+% toc=sectionentrydots=true% KOMA guide, p. 74
+]{scrbook} % Loads the document class "scrbook" (KOMA-Script-Book by Markus Kohm et al.)
+
+%\documentclass[halfparskip,numbers=noenddot,a5paper,10pt,english,ngerman]{scrbook}
+
+
+% Input, including umlauts (ä, ö, ü and ß) using the parameter [utf8]
+\usepackage[utf8]{inputenc}
+
+% Output, including umlauts
+\usepackage[T1]{fontenc}
+
+% Load the language packs for hyphenation
+\usepackage[english]{babel}
+
+% Insert more packages here
+\usepackage{booktabs}
+\usepackage{wrapfig}
+\usepackage[all]{nowidow} % Prevents widows
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[]{acronym}
+\usepackage{trfsigns}
+\usepackage{caption} % For subfigures
+\usepackage{subcaption} % For "subfloat" environments (multi-image graphics / multiple images)
+%\usepackage{subfigure} % Old package for "subfigures"
+\usepackage{enumitem}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{textcmds} % For quotation marks
+%\usepackage{epstopdf}
+%\usepackage{url}
+%\usepackage{wrapfig}
+%\providecommand\phantomsection{}
+%\usepackage{color}
+%\usepackage{cancel}
+%\usepackage{amsthm}
+%\usepackage{ulem}
+%\usepackage[automark]{scrpage2}
+%\usepackage{empheq}
+%\usepackage{xcolor}
+%\usepackage{float}
+%\providecommand\phantomsection{}
+\usepackage{blindtext} % Enable blind text to display text in the template
+\usepackage{fancyvrb} % For Verbatim environments to output LaTeX source code
+%\usepackage{showframe} % Show margins
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%    		Preamble / Hyphenation!    	     	   %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hyphenation{
+Ge-schich-te
+An-ten-ne
+% Please add words that should not be separated into this list without a hyphen
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%    Preamble / Cite!  / Quote!       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Both \citep and \citet are defined by natbib and are thus not standard. The standard LATEX command \cite should be avoided, because it behaves like \citet for author–year citations, but like \citep for numerical ones
+% Quoting from the bibliography "Literature.bib": "\citet{<ID>}" respectively "\citep{<ID>}"
+% Quoting from the bibliography "Own_journal_papers.bib": "\citetjournal{<ID>}" respectively "\citepjournal{<ID>}"
+% Quoting from the bibliography "Own_conference_papers.bib": "\citetconference{<ID>}" respectively "\citepconference{<ID>}"
+
+% Quotation marks
+% You form the English introductory quotation marks in LaTeX with two acute accents one after the other, i.e. with the characters `` (shift+´).
+% Complete your English quote with two apostrophes in a row. So you write the sign '' (shift+#).
+
+% By default, all titles / references are output in the bibliographies. If only the quoted titles / references are to be output in the bibliography, the command "\nocite{*}" or "\nocitejournal{*} or "\nociteconference{*} "must be commented out in the file "./Inhalt/Literaturverzeichnis.tex"
+
+%\usepackage{cite}
+\usepackage[%
+round,% (Default) for round parentheses;
+%square,% For square brackets
+%curly,% For curly braces
+%semicolon, % (Default), trennt mehrere Autoren mit Semicolon
+%comma, % (Default) to separate multiple citations with semi-colons
+%authoryear, % (Default) for author–year citations
+%numbers, % For numerical citations
+%super, % For superscripted numerical citations, as in Nature
+]{natbib}
+%
+\bibpunct{(}% Left paranthesis
+{)}% Right paranthesis
+{,}% Separation between several titles in the text
+{a}% Citation style: n=for numerical style, s=for numerical superscript style, a=any other letter for author–year, (default) author–year
+{}% Punctuation before the year
+{,}% Punctuation between different publication years of titles by the same author
+%
+% Cite!
+% The following examples are taken from Patrick W. Daly (2010) "Natural Sciences Citations and References. Author-Year and Numerical Schemes"
+%\citet{jon90} --> Jones et al. (1990)
+%\citet[chap.~2]{jon90} --> Jones et al. (1990, chap. 2)
+%\citep{jon90} --> (Jones et al., 1990)
+%\citep[chap.~2]{jon90} --> (Jones et al., 1990, chap. 2)
+%\citep[see][]{jon90} --> (see Jones et al., 1990)
+%\citep[see][chap.~2]{jon90} --> (see Jones et al., 1990, chap. 2)
+%\citet*{jon90} --> Jones, Baker, and Williams (1990)
+%\citep*{jon90} --> (Jones, Baker, and Williams, 1990)
+%
+%\citet{jon90,jam91} --> Jones et al. (1990); James et al. (1991)
+%\citep{jon90,jam91} --> (Jones et al., 1990; James et al. 1991)
+%\citep{jon90,jon91} --> (Jones et al., 1990, 1991)
+%\citep{jon90a,jon90b} --> (Jones et al., 1990a,b)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%       Preamble /  Bibliography!            %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[resetlabels]{multibib} % Each bibliography begins with counter [1], provided that "\ bibliographystyle {plain}" is selected as the bibliography style
+\usepackage{multibib} % The bibliographies counter is not reset (counting starting with [1] in "Journal articles" and will be continued in "Conference contributions"), provided that "\ bibliographiestyle {plain}" is selected as the bibliography style, with a different bibliography style, e.g. "\ bibliographystyle {alpha} no counter is used
+\newcites{journal}{Bibliography/Own_journal_papers}
+\newcites{conference}{Bibliography/Own_conference_papers}
+%
+\usepackage{etoolbox}
+\BeforeBeginEnvironment{thebibliography}{% Redefine to insert your own publications without breaking
+  \let\origchapter\chapter % Save the original definition of "\chapter"
+  \let\chapter\section % Make \chapter behave like "\section"
+}
+\AfterEndEnvironment{thebibliography}{%
+  \let\chapter\origchapter % Restore the original definition of "\chapter"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%        Preamble / Title!          		     %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PDF-Title
+\newcommand{\pdftitle}{Titel\ der\ Dissertation}
+
+% Author
+\newcommand{\autor}{Andrej\ Vladimirovič\ Ermoshkin}
+
+% Most of the preamble is moved to the "dokOptions.tex" file; The file must be integrated at this point
+% Settings such as scaling, font, spacing and the packages "geometry", "figure", "captions" are managed in the following file
+\input{dokOptions_main}
+
+% Title
+\newcommand{\headtitle}{Titel der Dissertation}
+
+%\makeindex
+
+\newcommand{\nauthor}{Andrej Vladimirovič Ermoshkin}
+\newcommand{\akadtitel}{M.Sc.}
+\newcommand{\geburtsort}{Geburtsort}
+
+\newcommand{\ntitle}{Titel der Dissertation}
+
+\newcommand{\referent}{Prof. Dr.-Ing. Hauptreferent}
+\newcommand{\korreferent}{Prof. Dr.-Ing. Korreferent}
+\newcommand{\ndatum}{tt.mm.jjjj}
+
+%\renewcommand{\figurename}{Abbildung}
+%\renewcommand{\tablename}{Tabelle}
+
+%\ohead[]{}
+%\ofoot[\pagemark]{\pagemark} % Page numbers at the bottom outside
+
+%\ihead[]{}
+%\ohead[]{\headmark} % Headers at the top outside
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%				Begin document!	             			   %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%				Document / Layout			               %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Use the preset page style
+% \pagenumbering{gobble}
+
+% Use preset page style for headers or running headers and page numbers (header and footer)
+\pagestyle{scrheadings}
+
+% Uses the information from the commands "\markright" or "\markboth" for running headlines or headers (these running headlines are not numbered and the headline has no line)
+% \pagestyle{myheadings} 
+
+% Also places the chapter heading on the right side of the header, since there are no subchapters
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter\ \  #1}{\thechapter\ \  #1}} 
+
+% Start with 5 (KSP puts 4 labeled pages in front)
+%\setcounter{page}{5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%				Title page (include!)		             %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Contents/Title_page}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%			Title part / chapter (include!)	       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% With the command "\frontmatter" of the document class "book", the chapters "Summary", "Foreword", "Table of Contents", "Abbreviations and Symbols" are numbered in small Roman numerals
+\frontmatter 
+
+% Abstract in German
+\include{Contents/Kurzfassung}
+
+% Summary
+\include{Contents/Abstract}
+
+% Foreword
+\include{Contents/Preface}
+
+% Table of contents \ tableofcontents (see table of contents.tex)
+\include{Contents/Table_of_contents}
+
+% Acronyms and symbols
+\include{Contents/Acronyms_and_symbols}
+
+% Each new chapter starts on the right side
+\cleardoublepage 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%				Main parts / Layout			             %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Use Arabic pagination starting on page 1; Due to the document class "book", this is not necessary, since the settings are set with the command "\ mainmatter"
+% \pagenumbering{arabic} 
+% \setcounter{page}{1}
+
+% With the "\mainmatter" command of the "book" document class, the following chapters are numbered in Arabic numerals. Chapters in the main part are numbered in the table of contents
+\mainmatter 
+
+% Line spacing within tables (originally 1.4)
+\renewcommand{\arraystretch}{1.2}
+
+% Distance between columns in tables
+\setlength{\tabcolsep}{1mm} 
+
+% Spacing for bullets
+\setlist[itemize]{itemsep=0mm, topsep=1mm} 
+
+% Greater distance between caption and table
+% \captionsetup[table]{belowskip=1mm} 
+
+%\RedeclareSectionCommand[beforeskip=-1.00\baselineskip,afterskip=0.50\baselineskip]{section}
+%\RedeclareSectionCommand[beforeskip=-0.75\baselineskip,afterskip=0.50\baselineskip]{subsection}
+%\RedeclareSectionCommand[beforeskip=-0.50\baselineskip,afterskip=0.25\baselineskip]{subsubsection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%			Main parts / chapter (include!)	       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Notes for authors
+\include{Contents/Notes}
+
+% Introduction and Motivation
+\include{Contents/Introduction_and_motivation}
+
+% State of the art
+\include{Contents/State_of_the_art}
+
+% Theory
+\include{Contents/Theory}
+
+% Headlines
+\include{Contents/Headlines}
+
+% Summary and outlook
+\include{Contents/Summary}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%				Appendix (include!)	 		             %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Appendix; chapters in the appendix receive capital letters in the table of contents
+\appendix 
+
+\include{Contents/Appendix}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%				List of (include!)			             %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% List of figures
+\listoffigures
+
+% List of tables
+\listoftables
+
+% Listings
+\renewcommand{\lstlistlistingname}{\latex source code} % Changes the headline and bookmark in the PDF file from "List" to "LaTeX source code"; this command must be placed here
+% \lstlistoflistings
+
+% Bibliography
+\include{Contents/Bibliography}
+
+\end{document}

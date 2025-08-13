@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: Contents/Title_page.aux
+A level-1 auxiliary file: Contents/Kurzfassung.aux
+A level-1 auxiliary file: Contents/Abstract.aux
+A level-1 auxiliary file: Contents/Preface.aux
+A level-1 auxiliary file: Contents/Table_of_contents.aux
+A level-1 auxiliary file: Contents/Acronyms_and_symbols.aux
+A level-1 auxiliary file: Contents/Notes.aux
+A level-1 auxiliary file: Contents/Introduction_and_motivation.aux
+A level-1 auxiliary file: Contents/State_of_the_art.aux
+A level-1 auxiliary file: Contents/Theory.aux
+A level-1 auxiliary file: Contents/Headlines.aux
+A level-1 auxiliary file: Contents/Summary.aux
+A level-1 auxiliary file: Contents/Appendix.aux
+A level-1 auxiliary file: Contents/Bibliography.aux
+The style file: plainnat.bst
+Database file #1: Bibliography/Literature.bib
+You've used 2 entries,
+            2773 wiz_defined-function locations,
+            626 strings with 5373 characters,
+and the built_in function-call counts, 742 in all, are:
+= -- 66
+> -- 20
+< -- 2
++ -- 8
+- -- 6
+* -- 51
+:= -- 122
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 2
+cite$ -- 4
+duplicate$ -- 40
+empty$ -- 73
+format.name$ -- 8
+if$ -- 150
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 3
+newline$ -- 19
+num.names$ -- 8
+pop$ -- 16
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 26
+stack$ -- 0
+substring$ -- 29
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 17
+warning$ -- 0
+while$ -- 8
+width$ -- 0
+write$ -- 36
