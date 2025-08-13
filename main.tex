@@ -249,20 +249,11 @@ round,% (Default) for round parentheses;
 % With the command "\frontmatter" of the document class "book", the chapters "Summary", "Foreword", "Table of Contents", "Abbreviations and Symbols" are numbered in small Roman numerals
 \frontmatter 
 
-% Abstract in German
-\include{Contents/Kurzfassung}
-
 % Summary
 \include{Contents/Abstract}
 
-% Foreword
-\include{Contents/Preface}
-
 % Table of contents \ tableofcontents (see table of contents.tex)
 \include{Contents/Table_of_contents}
-
-% Acronyms and symbols
-\include{Contents/Acronyms_and_symbols}
 
 % Each new chapter starts on the right side
 \cleardoublepage 
@@ -298,32 +289,8 @@ round,% (Default) for round parentheses;
 %%%			Main parts / chapter (include!)	       %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Notes for authors
-\include{Contents/Notes}
-
 % Introduction and Motivation
 \include{Contents/Introduction_and_motivation}
-
-% State of the art
-\include{Contents/State_of_the_art}
-
-% Theory
-\include{Contents/Theory}
-
-% Headlines
-\include{Contents/Headlines}
-
-% Summary and outlook
-\include{Contents/Summary}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%				Appendix (include!)	 		             %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Appendix; chapters in the appendix receive capital letters in the table of contents
-\appendix 
-
-\include{Contents/Appendix}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%				List of (include!)			             %%%

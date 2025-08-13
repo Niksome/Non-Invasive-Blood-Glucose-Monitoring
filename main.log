@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.13)  13 AUG 2025 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.13)  13 AUG 2025 16:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -863,7 +863,7 @@ LaTeX Font Info:    Font shape `T1/NimbusSerif/m/n' will be
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count376
 \l__pdf_internal_box=\box76
-) (./main.aux (./Contents/Title_page.aux) (./Contents/Kurzfassung.aux) (./Contents/Abstract.aux) (./Contents/Preface.aux) (./Contents/Table_of_contents.aux) (./Contents/Acronyms_and_symbols.aux) (./Contents/Notes.aux) (./Contents/Introduction_and_motivation.aux) (./Contents/State_of_the_art.aux) (./Contents/Theory.aux) (./Contents/Headlines.aux) (./Contents/Summary.aux) (./Contents/Appendix.aux) (./Contents/Bibliography.aux))
+) (./main.aux (./Contents/Title_page.aux) (./Contents/Abstract.aux) (./Contents/Table_of_contents.aux) (./Contents/Introduction_and_motivation.aux) (./Contents/Bibliography.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 218.
@@ -1020,9 +1020,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-\openout2 = `Contents/Kurzfassung.aux'.
+\openout2 = `Contents/Abstract.aux'.
 
- (./Contents/Kurzfassung.tex
+ (./Contents/Abstract.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 9.49997pt on input line 2.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
@@ -1040,9 +1040,17 @@ LaTeX Font Info:    Font shape `T1/NimbusSerif/m/n' will be
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}])
 
 [2]
-\openout2 = `Contents/Abstract.aux'.
+\openout2 = `Contents/Table_of_contents.aux'.
 
- (./Contents/Abstract.tex
+ (./Contents/Table_of_contents.tex (./main.toc
+LaTeX Info: Redefining \onlyattoc on input line 2.
+LaTeX Font Info:    Font shape `T1/NimbusSerif/b/n' will be
+(Font)              scaled to size 10.0pt on input line 3.
+)
+\tf@toc=\write10
+\openout10 = `main.toc'.
+
+)
 
 [3
 
@@ -1050,311 +1058,32 @@ LaTeX Font Info:    Font shape `T1/NimbusSerif/m/n' will be
 
 
 
-])
 
-[4]
-\openout2 = `Contents/Preface.aux'.
 
- (./Contents/Preface.tex
-
-[5
-
-
-
-
-
-])
-
-[6]
-\openout2 = `Contents/Table_of_contents.aux'.
-
- (./Contents/Table_of_contents.tex (./main.toc
-LaTeX Info: Redefining \onlyattoc on input line 2.
-LaTeX Font Info:    Font shape `T1/NimbusSerif/b/n' will be
-(Font)              scaled to size 10.0pt on input line 3.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.64998pt on input line 7.
-
-
-[7
-
-
-
-
-
-
-
-])
-\tf@toc=\write10
-\openout10 = `main.toc'.
-
-)
-
-[8]
-\openout2 = `Contents/Acronyms_and_symbols.aux'.
-
- (./Contents/Acronyms_and_symbols.tex
-
-[9
-
-
-
-
-
-])
-
-[10]
-\openout2 = `Contents/Notes.aux'.
-
- (./Contents/Notes.tex
-chapter 1.
-LaTeX Font Info:    Calculating math sizes for size <20> on input line 1.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.99994> not available
-(Font)              size <14.4> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <20> not available
-(Font)              size <20.74> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.99994> not available
-(Font)              size <14.4> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.99994> not available
-(Font)              size <14.4> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13.99994> not available
-(Font)              size <14.4> substituted on input line 1.
-
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.2999pt on input line 1.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 8.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 14.24995pt on input line 8.
-LaTeX Font Info:    Trying to load font information for TS1+NimbusSerif on input line 13.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/nimbus15/TS1NimbusSerif.fd
-File: TS1NimbusSerif.fd 2015/09/19 Font definitions for TS1/NimbusSerif (msharpe).
-)
-LaTeX Font Info:    Font shape `TS1/NimbusSerif/m/n' will be
-(Font)              scaled to size 10.0pt on input line 13.
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.56 
-      [1
-
-
-
-
-
-
-
-
-
-{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontools/fontools_ts1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
-[]\T1/cmtt/m/n/10 \chpater[A short headline]{A long and very detailed []\newline[] heading
- []
-
-<Figures/wrap-headings-in-the-text.png, id=145, 820.06375pt x 161.60374pt>
-File: Figures/wrap-headings-in-the-text.png Graphic file (type png)
-<use Figures/wrap-headings-in-the-text.png>
-Package pdftex.def Info: Figures/wrap-headings-in-the-text.png  used on input line 82.
-(pdftex.def)             Requested size: 376.42831pt x 74.1808pt.
-LaTeX Font Info:    Font shape `T1/NimbusSerif/b/n' will be
-(Font)              scaled to size 8.0pt on input line 83.
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
-\T1/cmtt/m/n/10 \item[$\bullet$] []\raggedright[] Text for lists with less than three lines
- []
-
-
-
-LaTeX Font Info:    Font shape `T1/NimbusSerif/m/n' will be
-(Font)              scaled to size 6.0pt on input line 109.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.109 
-       [2 <./Figures/wrap-headings-in-the-text.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
-\T1/cmtt/m/n/10 \item[$\bullet$] []\justifying[] Text for lists with three or more lines
- []
-
-LaTeX Font Info:    Font shape `T1/NimbusSerif/m/n' will be
-(Font)              scaled to size 7.0pt on input line 124.
-)
-
-[3]
-\openout2 = `Contents/Introduction_and_motivation.aux'.
-
- (./Contents/Introduction_and_motivation.tex
+]
 
 [4
 
 
 
 
-
 ]
-chapter 2.
+\openout2 = `Contents/Introduction_and_motivation.aux'.
 
-
-[5]
-
-[6])
-
-[7]
-\openout2 = `Contents/State_of_the_art.aux'.
-
- (./Contents/State_of_the_art.tex
-
-[8
-
-
-
-
-
-]
-chapter 3.
+ (./Contents/Introduction_and_motivation.tex
+chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 11.
+(Font)              scaled to size 13.67995pt on input line 6.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.34996pt on input line 11.
-
-
-[9]
-<Figures/bib.jpg, id=198, 316.18124pt x 210.7875pt>
-File: Figures/bib.jpg Graphic file (type jpg)
-<use Figures/bib.jpg>
-Package pdftex.def Info: Figures/bib.jpg  used on input line 45.
-(pdftex.def)             Requested size: 384.11221pt x 256.09254pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[10]
-File: Figures/bib.jpg Graphic file (type jpg)
-<use Figures/bib.jpg>
-Package pdftex.def Info: Figures/bib.jpg  used on input line 60.
-(pdftex.def)             Requested size: 188.21709pt x 125.47961pt.
-LaTeX Font Info:    Font shape `T1/NimbusSerif/b/n' will be
-(Font)              scaled to size 7.0pt on input line 60.
-File: Figures/bib.jpg Graphic file (type jpg)
-<use Figures/bib.jpg>
-Package pdftex.def Info: Figures/bib.jpg  used on input line 64.
-(pdftex.def)             Requested size: 188.21709pt x 125.47961pt.
-File: Figures/bib.jpg Graphic file (type jpg)
-<use Figures/bib.jpg>
-Package pdftex.def Info: Figures/bib.jpg  used on input line 69.
-(pdftex.def)             Requested size: 188.21709pt x 125.47961pt.
-File: Figures/bib.jpg Graphic file (type jpg)
-<use Figures/bib.jpg>
-Package pdftex.def Info: Figures/bib.jpg  used on input line 73.
-(pdftex.def)             Requested size: 188.21709pt x 125.47961pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[11 <./Figures/bib.jpg>]
-
-[12]
-<Figures/knowledge.jpg, id=218, 255.95625pt x 201.75375pt>
-File: Figures/knowledge.jpg Graphic file (type jpg)
-<use Figures/knowledge.jpg>
-Package pdftex.def Info: Figures/knowledge.jpg  used on input line 88.
-(pdftex.def)             Requested size: 170.71652pt x 134.56476pt.
-
-
-[13 <./Figures/knowledge.jpg>])
-
-[14]
-\openout2 = `Contents/Theory.aux'.
-
- (./Contents/Theory.tex
-chapter 4.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[15
-
-
-
-
-
-]
-LaTeX Font Info:    Font shape `T1/NimbusSerif/m/n' will be
-(Font)              scaled to size 5.0pt on input line 39.
-
-
-[16])
-
-[17]
-\openout2 = `Contents/Headlines.aux'.
-
- (./Contents/Headlines.tex
-
-[18
-
-
-
-
-
-]
-chapter 5.
+(Font)              scaled to size 14.24995pt on input line 6.
 )
 
-[19]
-\openout2 = `Contents/Summary.aux'.
 
- (./Contents/Summary.tex
-
-[20
-
-
-
-
-
-]
-chapter 6.
-
-
-[21])
-
-[22]
-\openout2 = `Contents/Appendix.aux'.
-
- (./Contents/Appendix.tex
-chapter A.
-)
-
-[23
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.293 ...ude{Contents/Introduction_and_motivation}
+                                                   [1
 
 
 
@@ -1362,7 +1091,12 @@ chapter A.
 
 ]
 
-[24
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.300 \listoffigures
+                     [2
 
 
 
@@ -1373,9 +1107,9 @@ chapter A.
 
 
 
-[25]
+[3]
 
-[26
+[4
 
 
 ] (./main.lot)
@@ -1384,12 +1118,12 @@ chapter A.
 
 
 
-[27]
+[5]
 \openout2 = `Contents/Bibliography.aux'.
 
  (./Contents/Bibliography.tex
 
-[28
+[6
 
 
 
@@ -1398,39 +1132,47 @@ LaTeX Font Info:    Font shape `T1/NimbusSerif/m/it' will be
 (Font)              scaled to size 10.0pt on input line 11.
 ) (./conference.bbl)
 
-[29]
+[7]
 
-[30
+[8
 
 
 ] (./main.bbl))
 
-[31] (./main.aux (./Contents/Title_page.aux) (./Contents/Kurzfassung.aux) (./Contents/Abstract.aux) (./Contents/Preface.aux) (./Contents/Table_of_contents.aux) (./Contents/Acronyms_and_symbols.aux) (./Contents/Notes.aux) (./Contents/Introduction_and_motivation.aux) (./Contents/State_of_the_art.aux) (./Contents/Theory.aux) (./Contents/Headlines.aux) (./Contents/Summary.aux) (./Contents/Appendix.aux) (./Contents/Bibliography.aux))
+[9]
+
+Package caption Warning: Unused \captionsetup[figure] on input line 130.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[table] on input line 136.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[subfloat] on input line 166.
+See the caption package documentation for explanation.
+
+(./main.aux (./Contents/Title_page.aux) (./Contents/Abstract.aux) (./Contents/Table_of_contents.aux) (./Contents/Introduction_and_motivation.aux) (./Contents/Bibliography.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.74pt have occurred.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34373 strings out of 473190
- 676823 string characters out of 5715800
- 1254005 words of memory out of 5000000
- 56816 multiletter control sequences out of 15000+600000
- 637215 words of font info for 108 fonts, out of 8000000 for 9000
+ 33851 strings out of 473190
+ 663585 string characters out of 5715800
+ 1249005 words of memory out of 5000000
+ 56447 multiletter control sequences out of 15000+600000
+ 605844 words of font info for 75 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,23n,109p,10950b,757s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/nimbus15/ztm-Med.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/nimbus15/ztm-Reg.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/nimbus15/ztm-RegIta.pfb>
-Output written on main.pdf (43 pages, 417021 bytes).
+ 108i,21n,109p,10950b,641s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/nimbus15/ztm-Med.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/nimbus15/ztm-Reg.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/nimbus15/ztm-RegIta.pfb>
+Output written on main.pdf (15 pages, 203468 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 426 compressed objects within 5 object streams
- 105 named destinations out of 1000 (max. 500000)
- 278 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
