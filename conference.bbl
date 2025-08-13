@@ -1,0 +1,20 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Mustermann(2018)]{Mustermann2018}
+Anton Mustermann.
+\newblock Titel von paper c.
+\newblock In \emph{IEEE International Conference}, pages 1--4, April 2018.
+\newblock \doi{10.1509}.
+
+\bibitem[Mustermann(2019)]{Mustermann2019}
+Anton Mustermann.
+\newblock Titel von paper d.
+\newblock In \emph{IEEE International Conference}, pages 6--45, April 2019.
+\newblock \doi{10.1509}.
+
+\end{thebibliography}
