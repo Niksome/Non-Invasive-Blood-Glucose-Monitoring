@@ -82,22 +82,11 @@ listof=nochaptergap,% No vertical spacing between the entries (chapter by chapte
 \usepackage{calc}
 \usepackage{multirow}
 \usepackage{textcmds} % For quotation marks
-%\usepackage{epstopdf}
-%\usepackage{url}
-%\usepackage{wrapfig}
-%\providecommand\phantomsection{}
-%\usepackage{color}
-%\usepackage{cancel}
-%\usepackage{amsthm}
-%\usepackage{ulem}
-%\usepackage[automark]{scrpage2}
-%\usepackage{empheq}
-%\usepackage{xcolor}
-%\usepackage{float}
-%\providecommand\phantomsection{}
 \usepackage{blindtext} % Enable blind text to display text in the template
 \usepackage{fancyvrb} % For Verbatim environments to output LaTeX source code
 %\usepackage{showframe} % Show margins
+\usepackage{todonotes}
+\usepackage{svg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%    		Preamble / Hyphenation!    	     	   %%%
@@ -180,9 +169,14 @@ round,% (Default) for round parentheses;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%        Preamble / Title!          		     %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
 
+\usepackage{graphicx,xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
 % PDF-Title
-\newcommand{\pdftitle}{Titel\ der\ Dissertation}
+\newcommand{\pdftitle}{Non-Invasive\ Blood\ Glucose\ Monitoring\ in\ Ears}
 
 % Author
 \newcommand{\autor}{Andrej\ Vladimirovič\ Ermoshkin}
@@ -192,7 +186,7 @@ round,% (Default) for round parentheses;
 \input{dokOptions_main}
 
 % Title
-\newcommand{\headtitle}{Titel der Dissertation}
+\newcommand{\headtitle}{Non-Invasive Blood Glucose Monitoring in Ears}
 
 %\makeindex
 
@@ -200,11 +194,13 @@ round,% (Default) for round parentheses;
 \newcommand{\akadtitel}{M.Sc.}
 \newcommand{\geburtsort}{Geburtsort}
 
-\newcommand{\ntitle}{Titel der Dissertation}
+\newcommand{\ntitle}{Non-Invasive Blood Glucose Monitoring in Ears}
 
 \newcommand{\referent}{Prof. Dr.-Ing. Hauptreferent}
 \newcommand{\korreferent}{Prof. Dr.-Ing. Korreferent}
 \newcommand{\ndatum}{tt.mm.jjjj}
+\newcommand{\Erstgutachter}{Eintragen}
+\newcommand{\Zweitgutachter}{Eintragen}
 
 %\renewcommand{\figurename}{Abbildung}
 %\renewcommand{\tablename}{Tabelle}

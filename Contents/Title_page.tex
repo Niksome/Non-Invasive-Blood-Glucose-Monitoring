@@ -1,40 +1,42 @@
 \begin{titlepage}
-\vspace*{0em}
+\thispagestyle{empty}
+
+% Hintergrunddeckblatt
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=north west,inner sep=0pt] at (current page.north west)
+    {\includegraphics[width=\paperwidth,height=\paperheight]{logos/KIT_Deckblatt.pdf}};
+
+	% TECO-Logo oben rechts (Abstand von Rand anpassen)
+  \node[anchor=north east,inner sep=0pt] at ($(current page.north east)+(-1.5cm,-1.5cm)$)
+    {\includegraphics[height=1.2cm]{logos/TECO_KIT.pdf}};
+\end{tikzpicture}
+
+% ----- Inhalt zentriert im Rahmen -----
+\vspace*{0.5cm} % Abstand von oben, bis Titel startet
 \begin{center}
+  {\Huge\bfseries \ntitle\par}
+  \vspace{1.4cm}
+  {\large Seminar Paper\par}
+  %\vspace{0.35cm}
+  {\normalsize by\par}
+  \vspace{0.6cm}
+  {\Large\bfseries \nauthor\par}
 
-\begin{doublespace}
-	{\LARGE \textbf{\ntitle}}
-\end{doublespace}
+  \vspace{0.7cm}
+  {\normalsize
+    Chair of Pervasive Computing Systems/TECO\\
+    Institute of Telematics\\
+    Department of Informatics\par}
 
-		\vskip 2em
-	Zur Erlangung des akademischen Grades eines 
-		\vskip 1em
-	{\large\textbf{DOKTOR-INGENIEURS}} 
-		\vskip 2em
-	von der Fakult\"at f\"ur \\
-	Elektrotechnik und Informationstechnik,\\
-	des Karlsruher Instituts f\"ur Technologie (KIT) 
-		\vskip 1em
-	genehmigte%vorgelegte
-		\vskip 1em
-	{\large \textbf{DISSERTATION}} \\
-		\vskip 1em
-	von 
-		\vskip 1em
-	{\large\textbf{\akadtitel{} \nauthor}} \\
-		\vskip 0.25em
-	geb. in \geburtsort
-\end{center}
+  \vspace{2.0cm}
+  \begin{tabular}{@{}p{5.3cm}l@{}}
+    First Reviewer:  & \Erstgutachter \\
+    Second Reviewer: & \Zweitgutachter \\
+    Supervisor:      & Supraja Ramesh \\
+  \end{tabular}
 
-\vfill
-\begin{center}
-
-\begin{tabular*}{1.02\textwidth}[h]{@{\extracolsep{\fill}}ll}
-Tag der m\"undlichen Pr\"ufung: & 26.06.2019 \\
-Hauptreferent: & \referent \\
-Korreferent: & \korreferent
-\end{tabular*}
-
+  \vspace{1.8cm}
+  \normalsize Project Period:\quad 29/04/2025 -- 30/09/2025
 \end{center}
 
 \end{titlepage}
