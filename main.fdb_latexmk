@@ -1,40 +1,40 @@
 # Fdb version 4
-["bibtex conference"] 1755084050.39972 "conference.aux" "conference.bbl" "conference" 1755094864.17705 0
+["bibtex conference"] 1755084050.39972 "conference.aux" "conference.bbl" "conference" 1756161882.58351 0
   "./Bibliography/Own_conference_papers.bib" 1755083845.31703 698 d9e8b4aa93ed3ee49a525e7e70a8ab3f ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "conference.aux" 1755094863.48919 170 1a2b6ea504ec0a30ed6eb15af865829d "pdflatex"
+  "conference.aux" 1756161881.8275 170 1a2b6ea504ec0a30ed6eb15af865829d "pdflatex"
   (generated)
   "conference.bbl"
   "conference.blg"
   (rewritten before read)
-["bibtex journal"] 1755084050.3027 "journal.aux" "journal.bbl" "journal" 1755094864.17699 0
+["bibtex journal"] 1755084050.3027 "journal.aux" "journal.bbl" "journal" 1756161882.58346 0
   "./Bibliography/Own_journal_papers.bib" 1755083845.31738 791 a200065e49600771816ebae1863a6d92 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "journal.aux" 1755094863.48917 167 4755597490d52f44a1889aef5e83b1b3 "pdflatex"
+  "journal.aux" 1756161881.82746 167 4755597490d52f44a1889aef5e83b1b3 "pdflatex"
   (generated)
   "journal.bbl"
   "journal.blg"
   (rewritten before read)
-["bibtex main"] 1755094861.69981 "main.aux" "main.bbl" "main" 1755094864.17675 0
+["bibtex main"] 1755094861.69981 "main.aux" "main.bbl" "main" 1756161882.58321 0
   "./Bibliography/Literature.bib" 1755083845.31632 680 18d24a24d3cef5a67accb55160310591 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "Contents/Abstract.aux" 1755094863.43581 1552 1d1b180d159939ac95ec86fcaa382676 "pdflatex"
-  "Contents/Bibliography.aux" 1755094863.48392 1980 75d8908f3d21651f1160ba51a02d6b6f "pdflatex"
-  "Contents/Introduction_and_motivation.aux" 1755094863.45971 2668 4fc907b3790a0674585162b5ee037784 "pdflatex"
-  "Contents/Table_of_contents.aux" 1755094863.44627 1423 3a38f558c2cef967590076b69a11d75c "pdflatex"
-  "Contents/Title_page.aux" 1755094863.4209 1416 1f45cfaed71c5978bf31f5adc7ed6a5b "pdflatex"
-  "main.aux" 1755094863.48519 5611 7b3a22f561be847f156bf8f08d1bb2c1 "pdflatex"
+  "Contents/Abstract.aux" 1756161881.76885 1552 1d1b180d159939ac95ec86fcaa382676 "pdflatex"
+  "Contents/Bibliography.aux" 1756161881.82193 1980 75d8908f3d21651f1160ba51a02d6b6f "pdflatex"
+  "Contents/Introduction_and_motivation.aux" 1756161881.79343 2668 4fc907b3790a0674585162b5ee037784 "pdflatex"
+  "Contents/Table_of_contents.aux" 1756161881.77965 1423 3a38f558c2cef967590076b69a11d75c "pdflatex"
+  "Contents/Title_page.aux" 1756161881.75152 1416 1f45cfaed71c5978bf31f5adc7ed6a5b "pdflatex"
+  "main.aux" 1756161881.82323 5611 7b3a22f561be847f156bf8f08d1bb2c1 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1755093227.1847 "main.idx" "main.ind" "main" 1755094864.17666 0
-  "main.idx" 1755094863.1358 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1755093227.1847 "main.idx" "main.ind" "main" 1756161882.58311 0
+  "main.idx" 1756161881.42817 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1755094861.79605 "/Users/andrejermoshkin/[01] Uni/Proseminar/Paper/main.tex" "main.pdf" "main" 1755094864.1771 0
+["pdflatex"] 1756161879.93687 "/Users/andrejermoshkin/[01] Uni/Proseminar/Paper/main.tex" "main.pdf" "main" 1756161882.58358 0
   "/Users/andrejermoshkin/[01] Uni/Proseminar/Paper/main.tex" 1755094505.00385 14316 8256bfffcde4b908ad0931349cfc9de0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/nimbus15/nimbus15-ec.enc" 1452378523 13514 46bb9e8658b01f201979f9b55112df2b ""
@@ -255,31 +255,31 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1755079805 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1755079723 3345732 f882e99d943cf94c020ae9cd49a57db2 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Contents/Abstract.aux" 1755094863.43581 1552 1d1b180d159939ac95ec86fcaa382676 "pdflatex"
-  "Contents/Abstract.tex" 1755094693.68419 184 adfa2166bda503adec505dff97b8306f ""
-  "Contents/Bibliography.aux" 1755094863.48392 1980 75d8908f3d21651f1160ba51a02d6b6f "pdflatex"
+  "Contents/Abstract.aux" 1756161881.76885 1552 1d1b180d159939ac95ec86fcaa382676 "pdflatex"
+  "Contents/Abstract.tex" 1756161879.58537 189 927d9572d3cb267642699a7cd943b9f0 ""
+  "Contents/Bibliography.aux" 1756161881.82193 1980 75d8908f3d21651f1160ba51a02d6b6f "pdflatex"
   "Contents/Bibliography.tex" 1755083845.32876 2100 a49a0726e5a07f5edc9f2644043280bf ""
-  "Contents/Introduction_and_motivation.aux" 1755094863.45971 2668 4fc907b3790a0674585162b5ee037784 "pdflatex"
+  "Contents/Introduction_and_motivation.aux" 1756161881.79343 2668 4fc907b3790a0674585162b5ee037784 "pdflatex"
   "Contents/Introduction_and_motivation.tex" 1755094858.86264 541 20a18b4bff7510e5760879233fce2646 ""
-  "Contents/Table_of_contents.aux" 1755094863.44627 1423 3a38f558c2cef967590076b69a11d75c "pdflatex"
+  "Contents/Table_of_contents.aux" 1756161881.77965 1423 3a38f558c2cef967590076b69a11d75c "pdflatex"
   "Contents/Table_of_contents.tex" 1755083845.33294 1091 552fa9ef8da754b92f07e007a21cb4ac ""
-  "Contents/Title_page.aux" 1755094863.4209 1416 1f45cfaed71c5978bf31f5adc7ed6a5b "pdflatex"
+  "Contents/Title_page.aux" 1756161881.75152 1416 1f45cfaed71c5978bf31f5adc7ed6a5b "pdflatex"
   "Contents/Title_page.tex" 1755092783.3194 1214 e86fa2f433d7d29d7a0e14f8b9fd8767 ""
-  "conference.aux" 1755094863.48919 170 1a2b6ea504ec0a30ed6eb15af865829d "pdflatex"
+  "conference.aux" 1756161881.8275 170 1a2b6ea504ec0a30ed6eb15af865829d "pdflatex"
   "conference.bbl" 1755084050.54703 628 22ba5d668de11b1ddef3397996c7fb81 "bibtex conference"
   "dokOptions_main.tex" 1755083845.35664 29625 8b42fe55fa5d228f0b06bcd56e195a22 ""
-  "journal.aux" 1755094863.48917 167 4755597490d52f44a1889aef5e83b1b3 "pdflatex"
+  "journal.aux" 1756161881.82746 167 4755597490d52f44a1889aef5e83b1b3 "pdflatex"
   "journal.bbl" 1755084050.39885 682 2ffc55368b8eb07fff034f6a58463af2 "bibtex journal"
   "logos/KIT_Deckblatt.pdf" 1755089259.4578 29368 a8c5b990b16ad43863325ad699ce1b65 ""
   "logos/TECO_KIT.pdf" 1755089259.46225 18756 ca5e30d70a1cc9c31a58d6b7b035f92d ""
-  "main.aux" 1755094863.48519 5611 7b3a22f561be847f156bf8f08d1bb2c1 "pdflatex"
+  "main.aux" 1756161881.82323 5611 7b3a22f561be847f156bf8f08d1bb2c1 "pdflatex"
   "main.bbl" 1755094861.79256 602 6d1c284855833fd6c8e0020b66a2e36d "bibtex main"
   "main.ind" 1755093227.30474 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1755094863.48935 95 62488416df12e764294413390369d2c2 "pdflatex"
-  "main.lot" 1755094863.48937 95 62488416df12e764294413390369d2c2 "pdflatex"
-  "main.out" 1755094863.24538 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.lof" 1756161881.82755 95 62488416df12e764294413390369d2c2 "pdflatex"
+  "main.lot" 1756161881.82757 95 62488416df12e764294413390369d2c2 "pdflatex"
+  "main.out" 1756161881.5483 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1755094505.00385 14316 8256bfffcde4b908ad0931349cfc9de0 ""
-  "main.toc" 1755094863.48931 1017 23febb3212e3aa901284fa6e212ab8d6 "pdflatex"
+  "main.toc" 1756161881.82753 1017 23febb3212e3aa901284fa6e212ab8d6 "pdflatex"
   (generated)
   "Contents/Abstract.aux"
   "Contents/Bibliography.aux"
