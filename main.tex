@@ -114,21 +114,12 @@ An-ten-ne
 % By default, all titles / references are output in the bibliographies. If only the quoted titles / references are to be output in the bibliography, the command "\nocite{*}" or "\nocitejournal{*} or "\nociteconference{*} "must be commented out in the file "./Inhalt/Literaturverzeichnis.tex"
 
 %\usepackage{cite}
-\usepackage[%
-round,% (Default) for round parentheses;
-%square,% For square brackets
-%curly,% For curly braces
-%semicolon, % (Default), trennt mehrere Autoren mit Semicolon
-%comma, % (Default) to separate multiple citations with semi-colons
-%authoryear, % (Default) for author–year citations
-%numbers, % For numerical citations
-%super, % For superscripted numerical citations, as in Nature
-]{natbib}
+\usepackage[numbers,super,sort&compress]{natbib}
 %
-\bibpunct{(}% Left paranthesis
-{)}% Right paranthesis
+\bibpunct{[}% Left paranthesis
+{]}% Right paranthesis
 {,}% Separation between several titles in the text
-{a}% Citation style: n=for numerical style, s=for numerical superscript style, a=any other letter for author–year, (default) author–year
+{s}% Citation style: n=for numerical style, s=for numerical superscript style, a=any other letter for author–year, (default) author–year
 {}% Punctuation before the year
 {,}% Punctuation between different publication years of titles by the same author
 %
