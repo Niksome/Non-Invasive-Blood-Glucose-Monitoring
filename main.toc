@@ -1,15 +1,20 @@
 \babel@toc {english}{}\relax 
 \activateonlyattoc 
 \contentsline {chapter}{Abstract}{i}{chapter*.1}%
-\contentsline {chapter}{\numberline {1}Introduction and motivation}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Background on Diabetes}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Importance of Blood Glucose Monitoring (BGL)}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Limitations of Invasive and Minimally Invasive Methods}{1}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Goal and Scope of This Paper}{1}{section.1.4}%
-\contentsline {chapter}{\nonumberline List of Figures}{3}{chapter*.3}%
-\contentsline {chapter}{\nonumberline List of Tables}{5}{chapter*.4}%
-\contentsline {chapter}{List of Publications}{7}{chapter*.5}%
-\contentsline {section}{Journal articles}{7}{section*.6}%
-\contentsline {section}{Conference contributions}{7}{section*.7}%
-\contentsline {chapter}{Bibliography}{9}{chapter*.8}%
+\contentsline {chapter}{\numberline {1}Motivation}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Drawbacks of invasive methods}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Goal and Scope of This Paper}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Background: Diabetes and Blood Glucose Monitoring}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Photoplethysmography}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Anatomical zones for measurement}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Classical Machine Learning Models for BGL estimation}{9}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Deep Learning Approaches}{11}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Hybrid Models}{13}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Comparison of Methods}{15}{chapter.8}%
+\contentsline {chapter}{\nonumberline List of Figures}{17}{chapter*.3}%
+\contentsline {chapter}{\nonumberline List of Tables}{19}{chapter*.4}%
+\contentsline {chapter}{List of Publications}{21}{chapter*.5}%
+\contentsline {section}{Journal articles}{21}{section*.6}%
+\contentsline {section}{Conference contributions}{21}{section*.7}%
+\contentsline {chapter}{Bibliography}{23}{chapter*.8}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

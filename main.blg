@@ -4,13 +4,20 @@ The top-level auxiliary file: main.aux
 A level-1 auxiliary file: Contents/Title_page.aux
 A level-1 auxiliary file: Contents/Abstract.aux
 A level-1 auxiliary file: Contents/Table_of_contents.aux
-A level-1 auxiliary file: Contents/Introduction_and_motivation.aux
+A level-1 auxiliary file: Contents/1_Introduction_and_motivation.aux
+A level-1 auxiliary file: Contents/2_Background_Diabetes_and_BGL.aux
+A level-1 auxiliary file: Contents/3_PPG.aux
+A level-1 auxiliary file: Contents/4_Anatomical_zones.aux
+A level-1 auxiliary file: Contents/5_ML.aux
+A level-1 auxiliary file: Contents/6_Deep_learning_approaches.aux
+A level-1 auxiliary file: Contents/7_Hybrid_models.aux
+A level-1 auxiliary file: Contents/8_Comparison_of_methods.aux
 A level-1 auxiliary file: Contents/Bibliography.aux
 The style file: plainnat.bst
 Database file #1: Bibliography/Literature.bib
 You've used 2 entries,
             2773 wiz_defined-function locations,
-            617 strings with 5167 characters,
+            624 strings with 5380 characters,
 and the built_in function-call counts, 742 in all, are:
 = -- 66
 > -- 20
