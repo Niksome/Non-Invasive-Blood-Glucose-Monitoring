@@ -1,19 +1,72 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Book(2021)]{Book2021}
-Conrad Book.
-\newblock \emph{Title of Book}.
-\newblock Publisher, Address, 2nd edition, 2021.
+\bibitem[Azudin et~al.(2023)Azudin, Gan, Jaafar, and Ja’afar]{azudin_principles_2023}
+Khalida Azudin, Kok~Beng Gan, Rosmina Jaafar, and Mohd~Hasni Ja’afar.
+\newblock The {Principles} of {Hearable} {Photoplethysmography} {Analysis} and {Applications} in {Physiological} {Monitoring}–{A} {Review}.
+\newblock \emph{Sensors}, 23\penalty0 (14):\penalty0 6484, January 2023.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s23146484}.
+\newblock URL \url{https://www.mdpi.com/1424-8220/23/14/6484}.
+\newblock Publisher: Multidisciplinary Digital Publishing Institute.
 
-\bibitem[Journal(2000)]{Journal2000}
-Anna Journal.
-\newblock Title of article.
-\newblock \emph{Name of Journal}, 6\penalty0 (3--4):\penalty0 371--378, 2000.
-\newblock \doi{10.1017/S1754078714006221}.
+\bibitem[Budidha and Kyriacou(2014)]{budidha_human_2014}
+K.~Budidha and P.~A. Kyriacou.
+\newblock The human ear canal: investigation of its suitability for monitoring photoplethysmographs and arterial oxygen saturation.
+\newblock \emph{Physiological Measurement}, 35\penalty0 (2):\penalty0 111--128, February 2014.
+\newblock ISSN 1361-6579.
+\newblock \doi{10.1088/0967-3334/35/2/111}.
+
+\bibitem[Castaneda et~al.(2018)Castaneda, Esparza, Ghamari, Soltanpur, and Nazeran]{castaneda_review_2018}
+Denisse Castaneda, Aibhlin Esparza, Mohammad Ghamari, Cinna Soltanpur, and Homer Nazeran.
+\newblock A review on wearable photoplethysmography sensors and their potential future applications in health care.
+\newblock \emph{International journal of biosensors \& bioelectronics}, 4\penalty0 (4):\penalty0 195--202, 2018.
+\newblock ISSN 2573-2838.
+\newblock \doi{10.15406/ijbsbe.2018.04.00125}.
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6426305/}.
+
+\bibitem[Hammour and Mandic(2023)]{hammour_-ear_2023}
+Ghena Hammour and Danilo~P. Mandic.
+\newblock An {In}-{Ear} {PPG}-{Based} {Blood} {Glucose} {Monitor}: {A} {Proof}-of-{Concept} {Study}.
+\newblock \emph{Sensors}, 23\penalty0 (6):\penalty0 3319, January 2023.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s23063319}.
+\newblock URL \url{https://www.mdpi.com/1424-8220/23/6/3319}.
+\newblock Publisher: Multidisciplinary Digital Publishing Institute.
+
+\bibitem[Hossain et~al.(2019)Hossain, Debnath, Biswas, Al-Hossain, Anika, and Zaman~Navid]{hossain_estimation_2019}
+Shamima Hossain, Bidya Debnath, Sabyasachi Biswas, Md.~Junaed Al-Hossain, Adrita Anika, and Syed~Khaled Zaman~Navid.
+\newblock Estimation of {Blood} {Glucose} from {PPG} {Signal} {Using} {Convolutional} {Neural} {Network}.
+\newblock In \emph{2019 {IEEE} {International} {Conference} on {Biomedical} {Engineering}, {Computer} and {Information} {Technology} for {Health} ({BECITHCON})}, pages 53--58, November 2019.
+\newblock \doi{10.1109/BECITHCON48839.2019.9063187}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/9063187}.
+
+\bibitem[Monte-Moreno(2011)]{monte-moreno_non-invasive_2011}
+Enric Monte-Moreno.
+\newblock Non-invasive estimate of blood glucose and blood pressure from a photoplethysmograph by means of machine learning techniques.
+\newblock \emph{Artificial Intelligence in Medicine}, 53\penalty0 (2):\penalty0 127--138, October 2011.
+\newblock ISSN 1873-2860.
+\newblock \doi{10.1016/j.artmed.2011.05.001}.
+
+\bibitem[Venema et~al.(2014)Venema, Gehring, Michelsen, Blanik, Blazek, and Leonhardt]{venema_robustness_2014}
+Boudewijn Venema, Hartmut Gehring, Ina Michelsen, Nikolai Blanik, Vladimir Blazek, and Steffen Leonhardt.
+\newblock Robustness, {Specificity}, and {Reliability} of an {In}-{Ear} {Pulse} {Oximetric} {Sensor} in {Surgical} {Patients}.
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}, 18\penalty0 (4):\penalty0 1178--1185, July 2014.
+\newblock ISSN 2168-2208.
+\newblock \doi{10.1109/JBHI.2013.2292118}.
+\newblock URL \url{https://ieeexplore.ieee.org/abstract/document/6671925}.
+
+\bibitem[Zeynali et~al.(2025)Zeynali, Alipour, Tarvirdizadeh, and Ghamari]{zeynali_non-invasive_2025}
+Mahdi Zeynali, Khalil Alipour, Bahram Tarvirdizadeh, and Mohammad Ghamari.
+\newblock Non-invasive blood glucose monitoring using {PPG} signals with various deep learning models and implementation using {TinyML}.
+\newblock \emph{Scientific Reports}, 15\penalty0 (1):\penalty0 581, January 2025.
+\newblock ISSN 2045-2322.
+\newblock \doi{10.1038/s41598-024-84265-8}.
+\newblock URL \url{https://www.nature.com/articles/s41598-024-84265-8}.
+\newblock Publisher: Nature Publishing Group.
 
 \end{thebibliography}
