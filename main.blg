@@ -15,44 +15,50 @@ A level-1 auxiliary file: Contents/8_Comparison_of_methods.aux
 A level-1 auxiliary file: Contents/Bibliography.aux
 The style file: plainnat.bst
 Database file #1: Bibliography/Literature.bib
-You've used 8 entries,
+Warning--to sort, need author or key in noauthor_information_2023
+Warning--to sort, need author or key in noauthor_diabetes_2025-1
+Warning--to sort, need author or key in noauthor_autoimmune_2024
+Warning--to sort, need author or key in noauthor_diabetes_2025
+Warning--empty journal in maldocsda_non-invasive_2024
+You've used 22 entries,
             2773 wiz_defined-function locations,
-            678 strings with 7919 characters,
-and the built_in function-call counts, 4661 in all, are:
-= -- 442
-> -- 292
-< -- 4
-+ -- 98
-- -- 90
-* -- 439
-:= -- 741
-add.period$ -- 48
-call.type$ -- 8
-change.case$ -- 54
-chr.to.int$ -- 8
-cite$ -- 16
-duplicate$ -- 175
-empty$ -- 328
-format.name$ -- 102
-if$ -- 959
-int.to.chr$ -- 1
+            760 strings with 10639 characters,
+and the built_in function-call counts, 9489 in all, are:
+= -- 903
+> -- 454
+< -- 12
++ -- 161
+- -- 138
+* -- 805
+:= -- 1424
+add.period$ -- 99
+call.type$ -- 22
+change.case$ -- 112
+chr.to.int$ -- 21
+cite$ -- 53
+duplicate$ -- 424
+empty$ -- 818
+format.name$ -- 164
+if$ -- 2010
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 8
-newline$ -- 72
-num.names$ -- 32
-pop$ -- 74
+missing$ -- 15
+newline$ -- 150
+num.names$ -- 72
+pop$ -- 217
 preamble$ -- 1
-purify$ -- 46
+purify$ -- 90
 quote$ -- 0
-skip$ -- 134
+skip$ -- 317
 stack$ -- 0
-substring$ -- 179
-swap$ -- 23
+substring$ -- 283
+swap$ -- 50
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 88
-warning$ -- 0
-while$ -- 38
+type$ -- 242
+warning$ -- 5
+while$ -- 75
 width$ -- 0
-write$ -- 159
+write$ -- 348
+(There were 5 warnings)

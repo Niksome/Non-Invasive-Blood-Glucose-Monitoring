@@ -1,9 +1,25 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[noa(2023)]{noauthor_information_2023}
+Information about diabetes, February 2023.
+\newblock URL \url{https://my.clevelandclinic.org/health/diseases/7104-diabetes}.
+
+\bibitem[noa(2024)]{noauthor_autoimmune_2024}
+Autoimmune {Diseases}, October 2024.
+\newblock URL \url{https://my.clevelandclinic.org/health/diseases/21624-autoimmune-diseases}.
+
+\bibitem[noa(2025{\natexlab{a}})]{noauthor_diabetes_2025}
+Diabetes {Facts} \& figures, 2025{\natexlab{a}}.
+\newblock URL \url{https://idf.org/about-diabetes/diabetes-facts-figures/}.
+
+\bibitem[noa(2025{\natexlab{b}})]{noauthor_diabetes_2025-1}
+Diabetes {Complications}, 2025{\natexlab{b}}.
+\newblock URL \url{https://idf.org/about-diabetes/diabetes-complications/}.
 
 \bibitem[Azudin et~al.(2023)Azudin, Gan, Jaafar, and Ja’afar]{azudin_principles_2023}
 Khalida Azudin, Kok~Beng Gan, Rosmina Jaafar, and Mohd~Hasni Ja’afar.
@@ -29,6 +45,24 @@ Denisse Castaneda, Aibhlin Esparza, Mohammad Ghamari, Cinna Soltanpur, and Homer
 \newblock \doi{10.15406/ijbsbe.2018.04.00125}.
 \newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6426305/}.
 
+\bibitem[Ellis(2024)]{ellis_blood_2024}
+Rachel Ellis.
+\newblock Blood {Sugar} {Test}: {How} and {When} to {Get} {It} {Done}, August 2024.
+\newblock URL \url{https://www.webmd.com/diabetes/how-test-blood-glucose}.
+
+\bibitem[Fernandez(2024)]{fernandez_autoimmune_2024}
+James Fernandez.
+\newblock Autoimmune {Disorders} - {Immune} {Disorders}, August 2024.
+\newblock URL \url{https://www.merckmanuals.com/home/immune-disorders/allergic-reactions-and-other-hypersensitivity-disorders/autoimmune-disorders}.
+
+\bibitem[Ghosh and Bora(2025)]{ghosh_evolution_2025}
+Manthan Ghosh and Vibha~Rajesh Bora.
+\newblock Evolution in blood glucose monitoring: a comprehensive review of invasive to non-invasive devices and sensors.
+\newblock \emph{Discover Medicine}, 2\penalty0 (1):\penalty0 74, March 2025.
+\newblock ISSN 3004-8885.
+\newblock \doi{10.1007/s44337-025-00273-1}.
+\newblock URL \url{https://doi.org/10.1007/s44337-025-00273-1}.
+
 \bibitem[Hammour and Mandic(2023)]{hammour_-ear_2023}
 Ghena Hammour and Danilo~P. Mandic.
 \newblock An {In}-{Ear} {PPG}-{Based} {Blood} {Glucose} {Monitor}: {A} {Proof}-of-{Concept} {Study}.
@@ -45,12 +79,51 @@ Shamima Hossain, Bidya Debnath, Sabyasachi Biswas, Md.~Junaed Al-Hossain, Adrita
 \newblock \doi{10.1109/BECITHCON48839.2019.9063187}.
 \newblock URL \url{https://ieeexplore.ieee.org/document/9063187}.
 
+\bibitem[Macisaac et~al.(2014)Macisaac, Ekinci, and Jerums]{macisaac_markers_2014}
+Richard~J. Macisaac, Elif~I. Ekinci, and George Jerums.
+\newblock Markers of and risk factors for the development and progression of diabetic kidney disease.
+\newblock \emph{American Journal of Kidney Diseases: The Official Journal of the National Kidney Foundation}, 63\penalty0 (2 Suppl 2):\penalty0 S39--62, February 2014.
+\newblock ISSN 1523-6838.
+\newblock \doi{10.1053/j.ajkd.2013.10.048}.
+
+\bibitem[Maldocsda(2024)]{maldocsda_non-invasive_2024}
+Ramasas Maldocsda.
+\newblock Non-{Invasive} {Glucose} {Monitoring}: {Pioneering} the {Future} of {Diabetes} {Care}.
+\newblock August 2024.
+
 \bibitem[Monte-Moreno(2011)]{monte-moreno_non-invasive_2011}
 Enric Monte-Moreno.
 \newblock Non-invasive estimate of blood glucose and blood pressure from a photoplethysmograph by means of machine learning techniques.
 \newblock \emph{Artificial Intelligence in Medicine}, 53\penalty0 (2):\penalty0 127--138, October 2011.
 \newblock ISSN 1873-2860.
 \newblock \doi{10.1016/j.artmed.2011.05.001}.
+
+\bibitem[Nesto(2004)]{nesto_correlation_2004}
+Richard~W Nesto.
+\newblock Correlation between cardiovascular disease and diabetes mellitus: current concepts.
+\newblock \emph{The American Journal of Medicine}, 116\penalty0 (5, Supplement 1):\penalty0 11--22, March 2004.
+\newblock ISSN 0002-9343.
+\newblock \doi{10.1016/j.amjmed.2003.10.016}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S0002934303006727}.
+
+\bibitem[Owida(2022)]{owida_non-invasive_2022}
+Hamza Owida.
+\newblock Non-invasive sensing techniques for glucose detection: a review.
+\newblock \emph{Bulletin of Electrical Engineering and Informatics}, 11, June 2022.
+\newblock \doi{10.11591/eei.v11i4.3584}.
+
+\bibitem[Rojas et~al.(2019)Rojas, Kuner, and Agarwal]{rojas_metabolomic_2019}
+Daniel~Rangel Rojas, Rohini Kuner, and Nitin Agarwal.
+\newblock Metabolomic signature of type 1 diabetes-induced sensory loss and nerve damage in diabetic neuropathy.
+\newblock \emph{Journal of Molecular Medicine (Berlin, Germany)}, 97\penalty0 (6):\penalty0 845--854, June 2019.
+\newblock ISSN 1432-1440.
+\newblock \doi{10.1007/s00109-019-01781-1}.
+
+\bibitem[Sapra and Bhandari(2023)]{sapra_diabetes_2023}
+Amit Sapra and Priyanka Bhandari.
+\newblock Diabetes.
+\newblock In \emph{{StatPearls} [{Internet}]}. StatPearls Publishing, June 2023.
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/sites/books/NBK551501/}.
 
 \bibitem[Venema et~al.(2014)Venema, Gehring, Michelsen, Blanik, Blazek, and Leonhardt]{venema_robustness_2014}
 Boudewijn Venema, Hartmut Gehring, Ina Michelsen, Nikolai Blanik, Vladimir Blazek, and Steffen Leonhardt.
@@ -59,6 +132,11 @@ Boudewijn Venema, Hartmut Gehring, Ina Michelsen, Nikolai Blanik, Vladimir Blaze
 \newblock ISSN 2168-2208.
 \newblock \doi{10.1109/JBHI.2013.2292118}.
 \newblock URL \url{https://ieeexplore.ieee.org/abstract/document/6671925}.
+
+\bibitem[Wong(2023)]{wong_continuous_2023}
+Jenise Wong.
+\newblock Continuous {Glucose} {Monitoring} - {NIDDK}, June 2023.
+\newblock URL \url{https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes/continuous-glucose-monitoring}.
 
 \bibitem[Zeynali et~al.(2025)Zeynali, Alipour, Tarvirdizadeh, and Ghamari]{zeynali_non-invasive_2025}
 Mahdi Zeynali, Khalil Alipour, Bahram Tarvirdizadeh, and Mohammad Ghamari.

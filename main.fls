@@ -506,6 +506,7 @@ INPUT ./Contents/1_Introduction_and_motivation.tex
 INPUT Contents/1_Introduction_and_motivation.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/nimbus15/ztm-Reg-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT ./Contents/2_Background_Diabetes_and_BGL.tex
