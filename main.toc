@@ -11,31 +11,31 @@
 \contentsline {chapter}{\numberline {3}Photoplethysmography}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Physical principle}{5}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Transmission vs. reflection method}{5}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Signal characteristics and challenges}{5}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Anatomical zones for measurement}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Anatomical zones overview}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Advantages and disadvantages of each zone}{7}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Practical implications for wearable devices}{7}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Classical Machine Learning Models for BGL estimation}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Support Vector Machines (SVM)}{9}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Random Forests}{9}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Properties of these models}{9}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Deep Learning Approaches}{11}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Convolutional Neural Networks (CNNs)}{11}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Long Short-Term Memory (LSTM) networks}{11}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Benefits and challenges}{11}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Hybrid Models}{13}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Architecture and workflow}{13}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Step-by-step process}{13}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Insights from recent literature}{13}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Comparison of Methods}{15}{chapter.8}%
-\contentsline {section}{\numberline {8.1}When classical models are preferable}{15}{section.8.1}%
-\contentsline {section}{\numberline {8.2}When deep/hybrid models outperform}{15}{section.8.2}%
-\contentsline {section}{\numberline {8.3}State of the art and emerging trends}{15}{section.8.3}%
-\contentsline {chapter}{\nonumberline List of Figures}{17}{chapter*.3}%
-\contentsline {chapter}{\nonumberline List of Tables}{19}{chapter*.4}%
-\contentsline {chapter}{List of Publications}{21}{chapter*.5}%
-\contentsline {section}{Journal articles}{21}{section*.6}%
-\contentsline {section}{Conference contributions}{21}{section*.7}%
-\contentsline {chapter}{Bibliography}{23}{chapter*.8}%
+\contentsline {section}{\numberline {3.3}Signal characteristics and challenges}{6}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Anatomical zones for measurement}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Anatomical zones overview}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Advantages and disadvantages of each zone}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Practical implications for wearable devices}{9}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Classical Machine Learning Models for BGL estimation}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Support Vector Machines (SVM)}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Random Forests}{11}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Properties of these models}{11}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Deep Learning Approaches}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Convolutional Neural Networks (CNNs)}{13}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Long Short-Term Memory (LSTM) networks}{13}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Benefits and challenges}{13}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Hybrid Models}{15}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Architecture and workflow}{15}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Step-by-step process}{15}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Insights from recent literature}{15}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Comparison of Methods}{17}{chapter.8}%
+\contentsline {section}{\numberline {8.1}When classical models are preferable}{17}{section.8.1}%
+\contentsline {section}{\numberline {8.2}When deep/hybrid models outperform}{17}{section.8.2}%
+\contentsline {section}{\numberline {8.3}State of the art and emerging trends}{17}{section.8.3}%
+\contentsline {chapter}{\nonumberline List of Figures}{19}{chapter*.5}%
+\contentsline {chapter}{\nonumberline List of Tables}{21}{chapter*.6}%
+\contentsline {chapter}{List of Publications}{23}{chapter*.7}%
+\contentsline {section}{Journal articles}{23}{section*.8}%
+\contentsline {section}{Conference contributions}{23}{section*.9}%
+\contentsline {chapter}{Bibliography}{25}{chapter*.10}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
